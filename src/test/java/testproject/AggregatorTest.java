@@ -37,7 +37,7 @@ public class AggregatorTest {
         agg.addValue(30);
 
         // Проверяем, что сумма равна 60
-        assertThat(agg.getSum())isEqualTo(60);
+        assertThat(agg.getSum()).isEqualTo(60);
 
         // Сбрасываем сумму
         agg.reset();
